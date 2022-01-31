@@ -32,17 +32,7 @@ This application makes use of the following libraries:
 - Use `npm run reset` to make sure the database is reset and do the up migrations  
 - Use `npm run test` to run the jasmine testing
 - Use `npm run dev` or `npm run start` to start the server 
-- Create a .env file with the environment variables. My environment variables are:
-POSTGRES_HOST= 127.0.0.1
-POSTGRES_DB= storefront_backend
-POSTGRES_TEST_DB= storefront_backend_test
-ENV=dev
-POSTGRES_USER= full_stack_user
-POSTGRES_PASSWORD= password123
-BCRYPT_PASSWORD= my_deep_secret
-SALT_ROUNDS=10
-TOKEN_SECRET= my_token_secret
-PORT= 3000
+- Create a .env file with the environment variables. 
 - The server runs on port 3000 || process.env.PORT 
 ## Scripts
 ### lint
